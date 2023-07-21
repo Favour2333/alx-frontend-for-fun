@@ -1,0 +1,28 @@
+
+/* Header section */
+
+.header-container {
+  display: flex; /* Add display: flex; 
+  justify-content: space-between; 
+}
+
+.header-logo {
+  /* Placeholder styles for header-logo */
+  padding: 10px;
+  background-color: #333;
+}
+
+.header-logo a {
+  /* Placeholder styles for header-logo links */
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-menu {
+  /* Placeholder styles for navbar-menu */
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+
