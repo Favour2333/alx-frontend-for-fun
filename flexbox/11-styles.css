@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <header class="hero-article" style="background-image: url(pic-article-02.jpg);">
+        <section class="section-inner">
+          <span class="section-category">Digital Life</span>
+          <h1 class="section-title">Ut alios omittam, hunc appello, quem ille unum secutus est</h1>
+        </section>
+      </header>
+    </main>
+  </body>
+</html>
+/* Section HERO (article)
+    ============================= */
+.hero-article {
+  background-size: 150rem 100rem;
+  background-position: 50% 0;
+}
+.hero-article::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+}
+.hero-article .section-inner {
+  text-align: center;
+  align-items: center;
+  min-height: 40vh;
+}
+.hero-article .section-body {
+  position: relative;
+  padding: 7rem 0 0;
+  z-index: 2;
+}
