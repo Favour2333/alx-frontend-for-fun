@@ -1,0 +1,10 @@
+/* Grid section */
+.row {
+  display: flex;
+}
+/* Remove float: left from all col- classes */
+[class*='col-'] {
+  /* float: left; */ /* Remove this line */
+  padding: 0 20px;
+  box-sizing: border-box;
+}
