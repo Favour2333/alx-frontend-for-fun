@@ -1,0 +1,8 @@
+/* Section Latest news ============================= */
+.section-latest-news .row {
+  display: flex;
+  flex-direction: row-reverse; /* Reverses the order of flex items */
+}
+
+/*** 4. CARD ***/
+/* ... Rest of your CSS code ... */
