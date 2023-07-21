@@ -1,0 +1,22 @@
+/* Section SERVICES ============================= */
+
+/* Update column widths */
+.col-1-3 {
+  width: calc((100% / 3) - 2rem);
+}
+
+.col-1-2 {
+  width: calc((100% / 2) - 2rem);
+}
+
+/* Remove padding and add margin to flex items */
+[class*='col-'] {
+  padding: 0; /* Remove the padding declaration */
+  margin: 1rem; /* Set margin to 1rem */
+}
+
+/* Adjust margin for the row */
+ul.row {
+  margin: -1rem; /* Replace the current margin with -1rem */
+}
+
