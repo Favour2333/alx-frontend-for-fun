@@ -1,0 +1,82 @@
+<div class="main-article">
+    <div class="container">
+      <div class="post">
+        <article class="post-content">
+          <!-- Article content goes here -->
+        </article>
+        <aside class="post-aside">
+          <div class="post-meta">
+            <ul class="post-meta-list row">
+              <li class="post-meta-author">
+                <strong>Written by:</strong>
+                <a href="#" rel="author">William Attaway</a>
+              </li>
+              <li class="post-meta-date">
+                <strong>Posted on:</strong>
+                <time datetime="2019-10">October 2019</time>
+              </li>
+              <li class="post-meta-tag">
+                <strong>Tags:</strong>
+                <ul class="tag-list">
+                  <li><a href="#" rel="tag">Web Design</a></li>
+                  <li><a href="#" rel="tag">UX</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="post-share">
+            <!-- Share buttons go here -->
+          </div>
+        </aside>
+      </div>
+    </div>
+  </div>
+  /*** ARTICLE PAGE ***/
+/* Section HERO (article)
+   ============================= */
+/* ... (previous styles) ... */
+
+/* Post Meta
+   ============================= */
+.post-meta-list {
+  flex-direction: column;
+}
+
+.post-meta-list strong {
+  color: var(--color-primary);
+  font-size: var(--font-size-small);
+  text-transform: uppercase;
+  display: block;
+}
+
+[class^="post-meta-"],
+[class*=" post-meta-"] {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 0.2rem solid var(--color-light-grey);
+}
+
+[class^="post-meta-"]:last-child,
+[class*=" post-meta-"]:last-child {
+  border: none;
+  margin-bottom: 3rem;
+}
+
+/* Tag list
+   ============================= */
+.tag-list {
+  padding: 0;
+  list-style: none;
+}
+
+.tag-list li {
+  display: inline;
+}
+
+.tag-list li::after {
+  content: ", ";
+}
+
+.tag-list li:last-child::after {
+  content: none;
+}
