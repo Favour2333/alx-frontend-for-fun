@@ -1,4 +1,4 @@
-/* Target all classes that begin with col- inside section-about-us class */
-.section-about-us [class^="col-"] {
+/* Section ABOUT US */
+.section-about-us .col-* {
   align-self: center;
 }
