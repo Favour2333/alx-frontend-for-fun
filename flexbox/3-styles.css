@@ -1,0 +1,9 @@
+/* Section SERVICES ============================= */
+.section-services .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*** 4. CARD ***/
+/* ... Rest of your CSS code ... */
+
