@@ -1,20 +1,14 @@
 /* Navbar section */
 
-nav.nav {
-  display: flex; /* Add display: flex; to the nav class selector */
+/* Navbar */
+.nav {
+  display: flex;
 }
-
-/* Inside the .nav .nav-item selector, remove the display declaration */
 .nav .nav-item {
- /* Remove display: inline-block; */
-  display: flex; /* Add display: flex; to make each navbar item a flex item */
-  align-items: center; /* Align items vertically in the center */
+  display: none;
 }
-
-/* Target .nav-item + .nav-item inside nav class */
-nav.nav .nav-item + .nav-item {
-  /* Move the margin declaration from .nav .nav-item inside the new selector */
-  margin-left: 2rem; /* Update the margin declaration to add space between adjacent navbar items */
+.nav-item + .nav-item {
+  margin: 0 0 0 2rem;
 }
 
 /* Variables section */
