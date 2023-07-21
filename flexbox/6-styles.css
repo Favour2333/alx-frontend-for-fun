@@ -1,0 +1,24 @@
+/* Navbar section */
+
+nav.nav {
+  display: flex; /* Add display: flex; to the nav class selector */
+}
+
+/* Remove the display declaration from .nav .nav-item selector */
+.nav .nav-item {
+  /* Existing styles for .nav .nav-item */
+  /* ... */
+}
+
+/* Target .nav-item + .nav-item inside nav class */
+nav.nav .nav-item + .nav-item {
+  /* Move the margin declaration from .nav .nav-item inside the new selector */
+  margin: 0 0 0 2rem;
+}
+
+/* Variables section */
+:root {
+  /* ... (other variables) ... */
+  --nav-item-margin: 0 0 0 2rem; /* Change the value of the variable nav-item-margin to be 0 0 0 2rem */
+}
+
