@@ -1,118 +1,62 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Article - Techium</title>
-  <meta name="description" content="Description of the page less than 150 characters">
-  <link rel="icon" type="image/x-icon" href="/favicon.ico">
-  <link rel="icon" type="image/png" href="/favicon.png">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="03-styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment Form</title>
+    <link rel="stylesheet" href="03-styles.css">
 </head>
 <body>
-  <header class="header" data-section-theme="dark">
-    <h1>Welcome to Techium</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <header class="section-hero hero-article" data-section-theme="dark" style="background-image: url('images/pic-article-02.jpg')">
-      <h1>Tech News and Updates</h1>
-      <p>Stay up-to-date with the latest in tech!</p>
-    </header>
-
-    <div class="main-article">
-      <div class="container">
-        <div class="post">
-          <article class="post-content">
-            <h2>Article Title</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat, mi eu aliquam facilisis, ipsum lorem placerat massa, ac ultricies eros elit in mauris.</p>
-            <p>Sed ac varius massa. Etiam venenatis nunc vitae justo consectetur, at consectetur arcu hendrerit.</p>
-            <p>Donec eu justo eu tellus facilisis porttitor.</p>
-          </article>
-
-          <section class="post-comments">
-            <header>
-              <h2 class="section-title">Leave a comment</h2>
-              <p>All fields are required.</p>
-            </header>
-
-            <form action="#" method="post">
-              <fieldset>
-                <legend class="visually-hidden">Your personal information</legend>
-
-                <div class="form-group col-1-2">
-                  <label for="your-first-name">First Name:</label>
-                  <div class="form-field">
+    <h1>Leave a Comment</h1>
+    <form>
+        <fieldset>
+            <div class="form-group col-1-2">
+                <label for="your-first-name">First Name</label>
+                <div class="form-field">
                     <span class="form-field-container">
-                      <input type="text" id="your-first-name" name="your-first-name" required>
+                        <input type="text" id="your-first-name" name="your-first-name" required>
                     </span>
-                  </div>
                 </div>
-
-                <div class="form-group col-1-2">
-                  <label for="your-last-name">Last Name:</label>
-                  <div class="form-field">
+            </div>
+            <div class="form-group col-1-2">
+                <label for="your-last-name">Last Name</label>
+                <div class="form-field">
                     <span class="form-field-container">
-                      <input type="text" id="your-last-name" name="your-last-name" required>
+                        <input type="text" id="your-last-name" name="your-last-name" required>
                     </span>
-                  </div>
                 </div>
-
-                <div class="form-group col-2-3">
-                  <label for="your-email">Email:</label>
-                  <div class="form-field">
+            </div>
+            <div class="form-group col-2-3">
+                <label for="your-email">Email</label>
+                <div class="form-field">
                     <span class="form-field-container">
-                      <input type="email" id="your-email" name="your-email" required>
+                        <input type="email" id="your-email" name="your-email" required>
                     </span>
-                  </div>
                 </div>
-              </fieldset>
-
-              <fieldset>
-                <legend class="visually-hidden">Your comment</legend>
-
-                <div class="form-group col-2-3">
-                  <label for="your-title">Title:</label>
-                  <div class="form-field">
+            </div>
+        </fieldset>
+        <fieldset>
+            <div class="form-group col-2-3">
+                <label for="your-title">Title</label>
+                <div class="form-field">
                     <span class="form-field-container">
-                      <input type="text" id="your-title" name="your-title" required>
+                        <input type="text" id="your-title" name="your-title" required>
                     </span>
-                  </div>
                 </div>
-
-                <div class="form-group col-2-3">
-                  <label for="your-comment">Comment:</label>
-                  <div class="form-field">
+            </div>
+            <div class="form-group col-2-3">
+                <label for="your-comment">Comment</label>
+                <div class="form-field">
                     <span class="form-field-container">
-                      <textarea id="your-comment" name="your-comment" rows="4" required></textarea>
+                        <textarea id="your-comment" name="your-comment" rows="4" required></textarea>
                     </span>
-                  </div>
                 </div>
-
-                <div class="form-group">
-                  <button type="submit" class="button button-primary">Post my comment</button>
-                </div>
-              </fieldset>
-            </form>
-          </section>
-        </div>
-      </div>
-    </div>
-
-    <footer class="footer" data-section-theme="dark">
-      <div class="container">
-        <p>&copy; 2023 Techium. All rights reserved.</p>
-      </div>
-    </footer>
-  </main>
+            </div>
+            <div class="form-group">
+                <button class="button button-primary" type="submit">Post my comment</button>
+            </div>
+        </fieldset>
+    </form>
 </body>
 </html>
 
