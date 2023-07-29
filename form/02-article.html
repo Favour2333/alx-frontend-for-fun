@@ -1,104 +1,99 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>Article - Techium</title>
-    <meta name="description" content="Description of the page less than 150 characters">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/png" href="/favicon.png">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="02-styles.css">
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Article - Techium</title>
+  <meta name="description" content="Description of the page less than 150 characters">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="02-styles.css">
+</head>
+<body>
+  <!-- Header content goes here -->
+  <header class="header" data-section-theme="dark">
     <!-- Header content goes here -->
-    <header class="header" data-section-theme="dark">
-        <div class="container">
-      <div class="header-container">
+  </header>
+
+  <main>
+    <!-- Hero section and main-article content goes here -->
+    <header class="section-hero hero-article" data-section-theme="dark" style="background-image: url('images/pic-article-02.jpg')">
+      <!-- Hero section content goes here -->
     </header>
 
-    <main>
-      <!-- Hero section and main-article content goes here -->
-      <header class="section-hero hero-article" data-section-theme="dark" style="background-image: url('images/pic-article-02.jpg')">
-        <div class="container">
-        <div class="section-body">
-          <section class="section-inner">
-            <span class="section-category">Digital Life</span>
-            <h1 class="section-title">Ut alios omittam, hunc appello, quem ille unum secutus est.</h1>
-      </header>
+    <div class="main-article">
+      <div class="container">
+        <div class="post">
+          <article class="post-content">
+            <!-- Main article content goes here -->
+          </article>
 
-      <div class="main-article">
-        <div class="container">
-          <div class="post">
-            <article class="post-content">
-              <!-- Main article content goes here -->
-            </article>
+          <!-- Comment section -->
+          <section class="post-comments">
+            <header>
+              <h2 class="section-title">Leave a comment</h2>
+              <p>All fields are required.</p>
+            </header>
 
-            <!-- Comment section -->
-            <section class="post-comments">
-              <header>
-                <h2 class="section-title">Leave a comment</h2>
-                <p>All fields are required.</p>
-              </header>
+            <form action="#" method="post">
+              <!-- Personal information fieldset -->
+              <fieldset>
+                <legend class="visually-hidden">Your personal information</legend>
 
-              <form action="#" method="post">
-                <!-- Personal information fieldset -->
-                <fieldset>
-                  <legend class="visually-hidden">Your personal information</legend>
+                <div class="form-group col-1-2">
+                  <!-- Form group content -->
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" required>
+                </div>
 
-                  <div class="form-group col-1-2">
-                    <!-- Form group content -->
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" required>
-                  </div>
+                <div class="form-group col-1-2">
+                  <!-- Form group content -->
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
 
-                  <div class="form-group col-1-2">
-                    <!-- Form group content -->
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
-                  </div>
+                <div class="form-group col-2-3">
+                  <!-- Form group content -->
+                  <label for="website">Website</label>
+                  <input type="url" id="website" name="website">
+                </div>
+              </fieldset>
 
-                  <div class="form-group col-2-3">
-                    <!-- Form group content -->
-                    <label for="website">Website</label>
-                    <input type="url" id="website" name="website">
-                  </div>
-                </fieldset>
+              <!-- Your comment fieldset -->
+              <fieldset>
+                <legend class="visually-hidden">Your comment</legend>
 
-                <!-- Your comment fieldset -->
-                <fieldset>
-                  <legend class="visually-hidden">Your comment</legend>
+                <div class="form-group col-2-3">
+                  <!-- Form group content -->
+                  <label for="subject">Subject</label>
+                  <input type="text" id="subject" name="subject" required>
+                </div>
 
-                  <div class="form-group col-2-3">
-                    <!-- Form group content -->
-                    <label for="subject">Subject</label>
-                    <input type="text" id="subject" name="subject" required>
-                  </div>
+                <div class="form-group col-2-3">
+                  <!-- Form group content -->
+                  <label for="comment">Comment</label>
+                  <textarea id="comment" name="comment" rows="4" required></textarea>
+                </div>
 
-                  <div class="form-group col-2-3">
-                    <!-- Form group content -->
-                    <label for="comment">Comment</label>
-                    <textarea id="comment" name="comment" rows="4" required></textarea>
-                  </div>
-
-                  <div class="form-group">
-                    <!-- Form group content -->
-                    <button type="submit">Submit</button>
-                  </div>
-                </fieldset>
-              </form>
-            </section>
-          </div>
+                <div class="form-group">
+                  <!-- Form group content -->
+                  <button type="submit">Submit</button>
+                </div>
+              </fieldset>
+            </form>
+          </section>
         </div>
       </div>
+    </div>
 
-      <!-- Footer content goes here -->
-      <footer class="footer" data-section-theme="dark">
-        <div class="container">
-          <!-- Footer content goes here -->
-        </div>
-      </footer>
-    </main>
-  </body>
+    <!-- Footer content goes here -->
+    <footer class="footer" data-section-theme="dark">
+      <div class="container">
+        <!-- Footer content goes here -->
+      </div>
+    </footer>
+  </main>
+</body>
 </html>
 
