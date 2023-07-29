@@ -11,25 +11,33 @@
   <link rel="stylesheet" href="02-styles.css">
 </head>
 <body>
-  <!-- Header content goes here -->
   <header class="header" data-section-theme="dark">
-    <!-- Header content goes here -->
+    <h1>Welcome to Techium</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main>
-    <!-- Hero section and main-article content goes here -->
     <header class="section-hero hero-article" data-section-theme="dark" style="background-image: url('images/pic-article-02.jpg')">
-      <!-- Hero section content goes here -->
+      <h1>Tech News and Updates</h1>
+      <p>Stay up-to-date with the latest in tech!</p>
     </header>
 
     <div class="main-article">
       <div class="container">
         <div class="post">
           <article class="post-content">
-            <!-- Main article content goes here -->
+            <h2>Article Title</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat, mi eu aliquam facilisis, ipsum lorem placerat massa, ac ultricies eros elit in mauris.</p>
+            <p>Sed ac varius massa. Etiam venenatis nunc vitae justo consectetur, at consectetur arcu hendrerit.</p>
+            <p>Donec eu justo eu tellus facilisis porttitor.</p>
           </article>
 
-          <!-- Comment section -->
           <section class="post-comments">
             <header>
               <h2 class="section-title">Leave a comment</h2>
@@ -37,47 +45,39 @@
             </header>
 
             <form action="#" method="post">
-              <!-- Personal information fieldset -->
               <fieldset>
                 <legend class="visually-hidden">Your personal information</legend>
 
                 <div class="form-group col-1-2">
-                  <!-- Form group content -->
                   <label for="name">Name:</label>
                   <input type="text" id="name" name="name" required>
                 </div>
 
                 <div class="form-group col-1-2">
-                  <!-- Form group content -->
                   <label for="email">Email:</label>
                   <input type="email" id="email" name="email" required>
                 </div>
 
                 <div class="form-group col-2-3">
-                  <!-- Form group content -->
                   <label for="website">Website:</label>
                   <input type="url" id="website" name="website">
                 </div>
               </fieldset>
 
-              <!-- Your comment fieldset -->
               <fieldset>
                 <legend class="visually-hidden">Your comment</legend>
 
                 <div class="form-group col-2-3">
-                  <!-- Form group content -->
                   <label for="subject">Subject:</label>
                   <input type="text" id="subject" name="subject" required>
                 </div>
 
                 <div class="form-group col-2-3">
-                  <!-- Form group content -->
                   <label for="comment">Comment:</label>
                   <textarea id="comment" name="comment" rows="4" required></textarea>
                 </div>
 
                 <div class="form-group">
-                  <!-- Form group content -->
                   <button type="submit">Submit</button>
                 </div>
               </fieldset>
@@ -87,10 +87,9 @@
       </div>
     </div>
 
-    <!-- Footer content goes here -->
     <footer class="footer" data-section-theme="dark">
       <div class="container">
-        <!-- Footer content goes here -->
+        <p>&copy; 2023 Techium. All rights reserved.</p>
       </div>
     </footer>
   </main>
