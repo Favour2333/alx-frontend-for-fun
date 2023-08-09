@@ -1,0 +1,31 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 10px 5px;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: #8a153a;
+}
+
+a::before {
+    content: "";
+    position: absolute;
+    text-decoration: none;
+    background-color: #8a153a;
+    height: 3px;
+    width: 0; /* Set the initial width to zero */
+    transform: translateY(2.2ex);
+    transition: width 0.5s ease-out; /* Only transition the width property */
+    transform-origin: left;
+}
+
+a:hover::before {
+    width: 9.5ch;
+}
